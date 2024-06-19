@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>原神启动</title>
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('myVideo');
+    video.addEventListener('ended', function() {
+      
+      window.location.href = 'https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/android_default';
+    });
+  });
+</script>
+</head>
+<body>
+
+<video id="myVideo" controls>
+  <source src="https://alimov2.a.kwimgs.com/upic/2023/08/06/17/BMjAyMzA4MDYxNzE0MTVfMjU5OTk2OTQ3NV8xMDk4Mjc0MTIxMzlfMV8z_b_B6c959c7fd306d3f63bae9c589be0bceb.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+</body>
+</html>
